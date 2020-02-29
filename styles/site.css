@@ -10,6 +10,17 @@ body{
 	font: caption;
 }
 
+.navbar{
+	background-color: rgba(220, 220, 220, .7);
+	height: 100%;
+	height: 100%;
+	width: 300px;
+	margin-left: 10px;
+	float:left;
+	position: absolute;
+	z-index: -1;
+}
+
 a{
 	color:#A19189;
 	font-variant: small-caps;
@@ -27,8 +38,6 @@ a:hover{
 
 header{
 	margin-right: 10px;
-	background-color: rgba(220, 220, 220, .7);
-	height: 100%;
 }
 
 header img{
