@@ -127,8 +127,8 @@ ul{
 	display:flex;
 	flex-direction: row;
 	padding: 10px;
-	margin-right: 50px;
-	margin-top: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
 }
 .cookiedescription{
 	margin-left: 10px;
