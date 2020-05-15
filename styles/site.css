@@ -1,44 +1,63 @@
 
 
 body{
-	padding:10px;
 	background-image: url("../img/gcsbackground.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: none;
 	color: #464544;
 	font: caption;
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	margin: 0;
 }
 
 .navbar{
-	background-color: rgba(220, 220, 220, .7);
+	background-color: rgba(254, 253, 249, .7);
 	height: 105%;
-	width: 300px;
-	margin-left: 10px;
-	margin-top: -20px;
+	width: 250px;
+	margin-left: 20px;
 	float:left;
-	position: absolute;
-	z-index: -1;
+	position: fixed;
+	border-left: dotted #ECBFA9;
+    border-right: dotted #ECBFA9;
+    margin-top: -6px;
+}
+
+header{
+	margin-left: 0;
 }
 
 a{
 	color:#A19189;
-	font-variant: small-caps;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-decoration: none;
 }
 
 a:hover{
-	color:#ECBFA9;
+	color:#7c914e;
+}
+
+hr{
+    border-bottom: 3px solid #7c914e;
+    border-top: 20px solid #ECBFA9;
+    border-left: rgba(254, 253, 249);
+    border-right: rgba(254, 253, 249);
+
 }
 
 .woodbackground{
-	background-color: rgba(254, 253, 249, .7);
+	background-color: rgba(254, 253, 249);
 	padding: 10px;
-	box-shadow: 5px 5px 5px #464544;
+	height: 800px;
 }
 
-header{
-	margin-right: 10px;
+.top{
+	line-height: 1cm;
 }
+
 
 header img{
 	display:inline;
@@ -56,10 +75,7 @@ nav ul {
 	flex-direction: column;
 	justify-content: space-around;
 	height:690px;
-}
-}
-article{
-	width: 65%;
+	margin-top: 80px;
 }
 
 section{
@@ -70,7 +86,14 @@ h1{
 	font-size: 45px;
 	color:#A19189;
 	text-align: center;
-	font-variant: small-caps;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.body{
+	text-align: center;
+	margin:20px;
+	margin-left: 290px;
 }
 
 .home{
@@ -90,7 +113,8 @@ h1{
 h2{
 	margin-top: 0px;
 	color:#A19189;
-	font-variant: small-caps;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
 }
 
 .specials{
@@ -102,21 +126,22 @@ h2{
 
 footer{
 	text-align: center;
-	margin:5px;
-	margin-top: 200px;
-	margin-left: 350px;
+	margin:20px;
+	margin-top: 50px;
+	margin-left: 290px;
+	color: #7c914e;
 }
 
 .socialmedia ul{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 	padding: 0;
 }
 
 .socialmedia li img{
-	width: 100px;
+	width: 170px;
 	height: auto;
 	margin: 10px;
 }
