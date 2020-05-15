@@ -13,14 +13,15 @@ body{
 }
 
 .navbar{
-	background-color: rgba(254, 253, 249, .7);
-	height: 105%;
-	width: 250px;
+	background-color: rgba(254, 253, 249);
+	height: auto;
+	width: auto;
 	margin-left: 20px;
 	float:left;
 	position: fixed;
 	border-left: dotted #ECBFA9;
     border-right: dotted #ECBFA9;
+    border-bottom: dotted #ECBFA9;
     margin-top: -6px;
 }
 
@@ -29,15 +30,15 @@ header{
 }
 
 a{
-	color:#A19189;
+	color:#7c914e;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 25px;
 	text-decoration: none;
 }
 
 a:hover{
-	color:#7c914e;
+	color:#ECBFA9;
 }
 
 hr{
@@ -64,18 +65,16 @@ header img{
 	margin-left:10px;
 	margin-bottom: -7px;
 }
-nav{
-	font-size: 45px;
-	height:100%;
-	width: 300px;
-}
 
 nav ul {
 	display:flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
-	height:690px;
-	margin-top: 80px;
+	padding: 0;
+}
+
+nav ul li{
+	margin: 5px;
 }
 
 section{
@@ -84,7 +83,7 @@ section{
 
 h1{
 	font-size: 45px;
-	color:#A19189;
+	color:#7c914e;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
@@ -112,7 +111,7 @@ h1{
 
 h2{
 	margin-top: 0px;
-	color:#A19189;
+	color:#ECBFA9;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 }
